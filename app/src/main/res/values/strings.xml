@@ -8,4 +8,20 @@
     <string name="tracking">Seguimiento</string>
     <string name="add_food">Agregar alimentos</string>
     <string name="preferences">Preferencias</string>
+    <string name="food_name">Nombre del Alimento</string>
+    <string name="quantity">Cantidad</string>
+    <string name="save">Guardar</string>
+    <string name="tracking_title">Seguimiento</string>
+    <string name="progress_chart">Gráfico de progreso</string>
+    <string name="summary_placeholder">Resumen de tus datos: \n• Calorías: 2000 kcal\n• Proteínas: 75 g\n• Carbohidratos: 250 g\n• Grasas: 70 g</string>
+    <string name="update_data">Actualizar Datos</string>
+    <string name="preferences_title">Preferencias</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="units">Unidades de medida</string>
+    <string name="save_preferences">Guardar Preferencias</string>
+    <string name="consumption_dates_title">Fechas de Consumo</string>
+    <string name="select_date">Seleccionar Fecha:</string>
+    <string name="pick_date">Elegir Fecha</string>
+    <string name="food_list_title">Alimentos Consumidos:</string>
 </resources>
