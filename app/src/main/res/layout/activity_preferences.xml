@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/md_theme_background"
@@ -8,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center">
 
@@ -28,8 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="space_between"
-            android:padding="12dp">
+            android:padding="16dp">
 
             <TextView
                 android:id="@+id/tv_dark_mode"
@@ -38,13 +38,14 @@
                 android:text="@string/dark_mode"
                 android:textSize="16sp"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/md_theme_on_background" />
+                android:textColor="@color/md_theme_onBackground" />
 
             <Switch
                 android:id="@+id/switch_dark_mode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="false" />
+                android:checked="false"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
         </LinearLayout>
 
         <!-- Notificaciones -->
@@ -52,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="12dp">
+            android:padding="16dp">
 
             <TextView
                 android:id="@+id/tv_notifications"
@@ -61,13 +62,14 @@
                 android:text="@string/notifications"
                 android:textSize="16sp"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/md_theme_on_background" />
+                android:textColor="@color/md_theme_onBackground" />
 
             <Switch
                 android:id="@+id/switch_notifications"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="true" />
+                android:checked="true"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
         </LinearLayout>
 
         <!-- Selección de unidades de medida -->
@@ -75,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="12dp">
+            android:padding="16dp">
 
             <TextView
                 android:id="@+id/tv_units"
@@ -84,7 +86,7 @@
                 android:text="@string/units"
                 android:textSize="16sp"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/md_theme_on_background"
+                android:textColor="@color/md_theme_onBackground"
                 android:layout_marginBottom="8dp" />
 
             <Spinner

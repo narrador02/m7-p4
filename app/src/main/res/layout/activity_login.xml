@@ -2,12 +2,14 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/md_theme_background">
+    android:background="@color/md_theme_background"
+    android:fillViewport="true">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
         android:padding="16dp">
 
         <EditText
@@ -18,7 +20,8 @@
             android:inputType="textEmailAddress"
             android:backgroundTint="@color/md_theme_primary"
             android:hintTextColor="@color/md_theme_onBackground"
-            android:textColor="@color/md_theme_onSurface" />
+            android:textColor="@color/md_theme_onSurface"
+            android:layout_marginBottom="16dp" />
 
         <EditText
             android:id="@+id/edit_password"
@@ -26,33 +29,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:layout_marginTop="16dp"
             android:backgroundTint="@color/md_theme_primary"
             android:hintTextColor="@color/md_theme_onBackground"
-            android:textColor="@color/md_theme_onSurface" />
+            android:textColor="@color/md_theme_onSurface"
+            android:layout_marginBottom="24dp" />
 
         <Button
             android:id="@+id/btn_login"
             android:text="@string/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
             android:backgroundTint="@color/md_theme_primary"
-            android:textColor="@color/md_theme_onPrimary" />
+            android:textColor="@color/md_theme_onPrimary"
+            android:layout_marginBottom="16dp" />
 
         <TextView
             android:id="@+id/txt_register"
             android:text="@string/txt_register"
             android:textColor="@color/md_theme_secondary"
-            android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
 
         <TextView
             android:id="@+id/txt_forgot_password"
             android:text="@string/txt_forgot_password"
             android:textColor="@color/md_theme_secondary"
-            android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>

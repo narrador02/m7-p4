@@ -19,10 +19,8 @@
             android:layout_height="wrap_content"
             android:text="@string/add_food"
             android:textSize="24sp"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="@color/md_theme_primary"
-            android:layout_gravity="center"
-            android:paddingBottom="16dp" />
+            style="@style/TitleStyle"
+            android:layout_marginBottom="24dp" />
 
         <!-- Nombre del alimento -->
         <EditText
@@ -31,8 +29,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/food_name"
             android:inputType="text"
-            android:backgroundTint="@color/md_theme_primary"
-            android:padding="12dp"
+            style="@style/EditTextStyle"
             android:layout_marginTop="8dp" />
 
         <!-- Cantidad -->
@@ -42,8 +39,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/quantity"
             android:inputType="numberDecimal"
-            android:backgroundTint="@color/md_theme_primary"
-            android:padding="12dp"
+            style="@style/EditTextStyle"
             android:layout_marginTop="12dp" />
 
         <!-- Unidad de medida -->
@@ -52,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:backgroundTint="@color/md_theme_primary" />
+            android:contentDescription="@string/unit_selection" />
 
         <!-- Categoría -->
         <Spinner
@@ -60,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:backgroundTint="@color/md_theme_primary" />
+            android:contentDescription="@string/category_selection" />
 
         <!-- Botón Guardar -->
         <Button
@@ -68,9 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/save"
-            android:backgroundTint="@color/md_theme_primary"
-            android:textColor="@android:color/white"
-            android:layout_marginTop="24dp"
-            android:padding="12dp" />
+            style="@style/ButtonStyle"
+            android:layout_marginTop="24dp" />
     </LinearLayout>
 </ScrollView>

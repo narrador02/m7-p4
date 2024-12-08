@@ -1,11 +1,12 @@
-package com.example.m07_p4
+package com.example.app
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.m07_p4.R
 
-class ConsumptionDatesActivity : AppCompatActivity() {
+class RecoverPasswordActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_consumption_dates)
+        setContentView(R.layout.recover_password)
     }
 }
