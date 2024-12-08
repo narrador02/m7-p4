@@ -22,14 +22,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, RecoverPasswordActivity::class.java))
         }
 
-        findViewById<Button>(R.id.btn_home).setOnClickListener {
-            startActivity(Intent(this, HomeActivity::class.java))
-        }
-
-        findViewById<Button>(R.id.btn_dates).setOnClickListener {
-            startActivity(Intent(this, DatesActivity::class.java))
-        }
-
         findViewById<Button>(R.id.btn_tracking).setOnClickListener {
             startActivity(Intent(this, TrackingActivity::class.java))
         }
@@ -40,6 +32,11 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.btn_preferences).setOnClickListener {
             startActivity(Intent(this, PreferencesActivity::class.java))
+        }
+
+        // Botón para ir a la actividad de Fechas de Consumo
+        findViewById<Button>(R.id.btn_dates).setOnClickListener {
+            startActivity(Intent(this, ConsumptionDatesActivity::class.java))
         }
     }
 }

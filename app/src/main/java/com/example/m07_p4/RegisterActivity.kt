@@ -1,4 +1,4 @@
-package com.example.app
+package com.example.m07_p4
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

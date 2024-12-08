@@ -52,5 +52,12 @@
             android:backgroundTint="@color/md_theme_primary"
             android:textColor="@android:color/white"
             android:padding="12dp" />
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/footer_fragment"
+            android:name="com.example.m07_p4.FooterFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+
     </LinearLayout>
 </ScrollView>

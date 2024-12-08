@@ -29,7 +29,7 @@
             android:exported="false" />
 
         <activity
-            android:name="."
+            android:name=".LoginActivity"
             android:exported="false" />
 
         <activity

@@ -32,11 +32,6 @@
             android:text="@string/recover_password" />
 
         <Button
-            android:id="@+id/btn_home"
-            style="@style/ButtonStyle"
-            android:text="@string/main_menu" />
-
-        <Button
             android:id="@+id/btn_dates"
             style="@style/ButtonStyle"
             android:text="@string/dates" />
