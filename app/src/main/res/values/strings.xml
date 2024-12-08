@@ -8,4 +8,13 @@
     <string name="tracking">Seguimiento</string>
     <string name="add_food">Agregar alimentos</string>
     <string name="preferences">Preferencias</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="btn_recover_password">Recuperar Contraseña</string>
+    <string name="txt_register">¿No tienes una cuenta? Regístrate</string>
+    <string name="txt_forgot_password">¿Has olvidado tu contraseña?</string>
 </resources>
+
