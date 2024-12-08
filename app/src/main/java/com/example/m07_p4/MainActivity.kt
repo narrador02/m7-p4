@@ -1,20 +1,45 @@
 package com.example.m07_p4
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        findViewById<Button>(R.id.btn_login).setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_register).setOnClickListener {
+            startActivity(Intent(this, RegisterActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_recover_password).setOnClickListener {
+            startActivity(Intent(this, RecoverPasswordActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_home).setOnClickListener {
+            startActivity(Intent(this, HomeActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_dates).setOnClickListener {
+            startActivity(Intent(this, DatesActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_tracking).setOnClickListener {
+            startActivity(Intent(this, TrackingActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_add_food).setOnClickListener {
+            startActivity(Intent(this, AddFoodActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btn_preferences).setOnClickListener {
+            startActivity(Intent(this, PreferencesActivity::class.java))
         }
     }
 }

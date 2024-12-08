@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">m07-p4</string>
+    <string name="app_name">NutriTrack</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="recover_password">Recuperar contraseña</string>
+    <string name="main_menu">Menú principal</string>
+    <string name="dates">Fechas de Consumo</string>
+    <string name="tracking">Seguimiento</string>
+    <string name="add_food">Agregar alimentos</string>
+    <string name="preferences">Preferencias</string>
 </resources>
